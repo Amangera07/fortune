@@ -24,12 +24,40 @@
   font-family: var(--font-cinzel), serif;
 }
 
+.font-royal-cinzel-deco {
+  font-family: var(--font-cinzel-deco), var(--font-cinzel), serif;
+}
+
+.font-royal-italiana {
+  font-family: var(--font-italiana), var(--font-cormorant), Georgia, serif;
+}
+
+.font-royal-bodoni {
+  font-family: var(--font-bodoni), Georgia, serif;
+}
+
+.font-royal-great-vibes {
+  font-family: var(--font-great-vibes), 'Alex Brush', cursive;
+}
+
+.font-royal-pinyon {
+  font-family: var(--font-pinyon), 'Great Vibes', cursive;
+}
+
+.font-royal-allura {
+  font-family: var(--font-allura), 'Alex Brush', cursive;
+}
+
 .font-royal-script {
   font-family: var(--font-satisfy), 'Playball', cursive;
 }
 
 .font-royal-playball {
   font-family: var(--font-playball), 'Satisfy', cursive;
+}
+
+.font-royal-alex {
+  font-family: var(--font-alex-brush), var(--font-playball), cursive;
 }
 
 .font-royal-subheading {

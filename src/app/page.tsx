@@ -391,39 +391,200 @@ function BannerBottomCheese() {
   );
 }
 
+function HeaderCheese() {
+  return (
+    <svg
+      width="100%"
+      height="100%"
+      viewBox="49.5 41.8 759.4 348"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className="w-full h-auto block transform -translate-y-[15%] origin-top will-change-transform"
+    >
+      <defs>
+        <mask id="header_drawMeltMask" maskUnits="userSpaceOnUse" x="30" y="-20" width="800" height="440">
+          {/* Fluid DrawSVG stream paths starting from the ceiling down */}
+          <path className="header-melt-stream" d="M 80 -10 L 80 140 Q 80 180 80 220" stroke="white" strokeWidth="180" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+          <path className="header-melt-stream" d="M 149 -10 L 149 170 Q 149 230 149 285" stroke="white" strokeWidth="170" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+          <path className="header-melt-stream" d="M 215 -10 L 215 150 Q 215 190 215 230" stroke="white" strokeWidth="170" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+          <path className="header-melt-stream" d="M 327 -10 L 327 130 Q 327 160 327 195" stroke="white" strokeWidth="170" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+          <path className="header-melt-stream" d="M 448 -10 L 448 130 Q 448 165 448 205" stroke="white" strokeWidth="170" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+          <path className="header-melt-stream" d="M 551 -10 L 551 130 Q 551 170 551 215" stroke="white" strokeWidth="170" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+          <path className="header-melt-stream" d="M 625 -10 L 625 140 Q 625 170 625 200" stroke="white" strokeWidth="170" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+          <path className="header-melt-stream" d="M 695 -10 L 695 170 Q 695 230 695 285" stroke="white" strokeWidth="170" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+          <path className="header-melt-stream" d="M 740 -10 L 740 200 Q 740 300 740 395" stroke="white" strokeWidth="180" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+          <path className="header-melt-stream" d="M 795 -10 L 795 130 Q 795 160 795 200" stroke="white" strokeWidth="170" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+        </mask>
+        <filter id="hdr_f1" x="38.1063" y="46.4822" width="282.936" height="204.507" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+          <feFlood floodOpacity="0" result="BackgroundImageFix"/>
+          <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+          <feGaussianBlur in="shape" stdDeviation="31.9" result="effect1_foregroundBlur_201_28"/>
+        </filter>
+        <filter id="hdr_f2" x="196.259" y="23.7034" width="121.959" height="79.3476" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+          <feFlood floodOpacity="0" result="BackgroundImageFix"/>
+          <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+          <feGaussianBlur in="shape" stdDeviation="15.4" result="effect1_foregroundBlur_201_28"/>
+        </filter>
+        <filter id="hdr_f3" x="342.72" y="120.048" width="121.959" height="79.3476" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+          <feFlood floodOpacity="0" result="BackgroundImageFix"/>
+          <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+          <feGaussianBlur in="shape" stdDeviation="15.4" result="effect1_foregroundBlur_201_28"/>
+        </filter>
+        <filter id="hdr_f4" x="573.501" y="127.654" width="93.9984" height="81.038" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+          <feFlood floodOpacity="0" result="BackgroundImageFix"/>
+          <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+          <feGaussianBlur in="shape" stdDeviation="15.4" result="effect1_foregroundBlur_201_28"/>
+        </filter>
+        <filter id="hdr_f5" x="695.11" y="193.997" width="83.1586" height="154.987" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+          <feFlood floodOpacity="0" result="BackgroundImageFix"/>
+          <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+          <feGaussianBlur in="shape" stdDeviation="15.4" result="effect1_foregroundBlur_201_28"/>
+        </filter>
+        <filter id="hdr_f6" x="421.563" y="-0.00019455" width="282.936" height="204.507" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+          <feFlood floodOpacity="0" result="BackgroundImageFix"/>
+          <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+          <feGaussianBlur in="shape" stdDeviation="31.9" result="effect1_foregroundBlur_201_28"/>
+        </filter>
+        <filter id="hdr_f10" x="253.217" y="142.174" width="78.1711" height="39.322" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+          <feFlood floodOpacity="0" result="BackgroundImageFix"/>
+          <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+          <feGaussianBlur in="shape" stdDeviation="6.45" result="effect1_foregroundBlur_201_28"/>
+        </filter>
+        <filter id="hdr_f11" x="488.678" y="121.022" width="40.1242" height="89.822" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+          <feFlood floodOpacity="0" result="BackgroundImageFix"/>
+          <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+          <feGaussianBlur in="shape" stdDeviation="6.45" result="effect1_foregroundBlur_201_28"/>
+        </filter>
+        <filter id="hdr_f12" x="137.467" y="225.869" width="30.007" height="55.4743" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+          <feFlood floodOpacity="0" result="BackgroundImageFix"/>
+          <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+          <feGaussianBlur in="shape" stdDeviation="6.45" result="effect1_foregroundBlur_201_28"/>
+        </filter>
+        <filter id="hdr_f13" x="47.6773" y="140.996" width="174.141" height="77.1731" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+          <feFlood floodOpacity="0" result="BackgroundImageFix"/>
+          <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+          <feGaussianBlur in="shape" stdDeviation="13.8" result="effect1_foregroundBlur_201_28"/>
+        </filter>
+        <filter id="hdr_f14" x="723.834" y="320.08" width="21.0148" height="20.716" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+          <feFlood floodOpacity="0" result="BackgroundImageFix"/>
+          <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+          <feGaussianBlur in="shape" stdDeviation="3.7" result="effect1_foregroundBlur_201_28"/>
+        </filter>
+        <filter id="hdr_f15" x="711.635" y="36.9267" width="111.3" height="201.3" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+          <feFlood floodOpacity="0" result="BackgroundImageFix"/>
+          <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+          <feGaussianBlur in="shape" stdDeviation="13.45" result="effect1_foregroundBlur_201_28"/>
+        </filter>
+        <filter id="hdr_f16" x="255.732" y="107.204" width="81.1297" height="58.554" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+          <feFlood floodOpacity="0" result="BackgroundImageFix"/>
+          <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+          <feGaussianBlur in="shape" stdDeviation="8.3" result="effect1_foregroundBlur_201_28"/>
+        </filter>
+      </defs>
+
+      <g mask="url(#header_drawMeltMask)">
+        <path d="M137.41 218.445C130.309 198.994 118.326 226.051 99.2424 206.191C80.1584 186.33 49.5352 206.191 49.5352 206.191V41.8267H808.902C810.233 97.8868 823.104 194.795 790.706 187.611C758.307 180.428 765.852 173.244 755.2 187.611C744.549 201.978 802.869 389.015 739.535 383.327C676.201 377.638 749.875 199.02 715.257 194.795C683.302 200.711 716.589 273.392 695.729 276.772C674.87 280.153 692.622 181.695 676.201 183.386C659.78 185.076 664.218 187.611 659.336 176.625C654.454 165.638 648.685 194.795 624.719 191.837C600.753 188.879 621.612 204.514 599.421 210.007C577.231 215.5 570.13 162.68 551.933 166.483C533.737 170.286 539.506 207.472 512.434 201.978C485.361 196.485 503.557 143.665 482.254 147.89C460.951 152.116 480.923 198.175 464.058 199.02C447.193 199.866 461.839 172.399 448.968 171.131C442.932 172.145 444.53 180.85 431.216 176.625C417.901 172.399 406.362 199.02 390.829 199.02C381.065 199.02 383.284 182.118 372.632 180.85C361.981 179.583 360.205 185.895 349.998 183.373C339.79 180.85 343.784 159.724 327.363 159.724C315.38 165.64 312.273 181.697 292.302 184.655C259.903 185.923 248.364 178.316 233.718 183.373C212.415 194.782 230.611 220.135 215.078 220.135C202.207 220.135 211.084 197.726 200.432 194.782C189.781 191.837 194.663 212.542 182.68 207.881C170.697 203.22 152.056 189.275 160.933 226.051C169.809 262.828 170.035 272.327 149.035 272.327C128.035 272.327 144.511 237.896 137.41 218.445Z" fill="#FBD169"/>
+        <g filter="url(#hdr_f1)">
+          <path d="M101.906 158.032L257.241 110.282L205.315 144.932L157.383 187.189L101.906 172.399V158.032Z" fill="#EFA43D"/>
+        </g>
+        <g filter="url(#hdr_f2)">
+          <path d="M227.059 65.5226L287.417 54.5034L267.24 62.4996L248.615 72.2511L227.059 68.8381V65.5226Z" fill="#FF9400"/>
+        </g>
+        <g filter="url(#hdr_f3)">
+          <path d="M373.52 161.867L433.878 150.848L413.701 158.844L395.076 168.596L373.52 165.183V161.867Z" fill="#FF9400"/>
+        </g>
+        <g filter="url(#hdr_f4)">
+          <path d="M604.301 171.164L630.486 158.454L636.699 177.892H625.857L604.301 174.479V171.164Z" fill="#FF9400"/>
+        </g>
+        <g filter="url(#hdr_f5)">
+          <path d="M725.91 286.946L737.893 224.797L744.994 318.184L747.467 293.675L725.91 290.262V286.946Z" fill="#FF9400"/>
+        </g>
+        <g filter="url(#hdr_f6)">
+          <path d="M485.363 111.55L640.698 63.7998L588.772 98.45L540.84 140.706L485.363 125.917V111.55Z" fill="#FF9E19"/>
+        </g>
+        <g filter="url(#hdr_f10)">
+          <path d="M266.33 165.302L318.487 155.074C310.471 159.179 291.366 167.598 279.08 168.433C266.794 169.268 265.461 166.693 266.33 165.302Z" fill="white"/>
+        </g>
+        <g filter="url(#hdr_f11)">
+          <path d="M510.705 134.056L515.903 197.944C513.26 189.65 493.907 162.023 504.962 145.337C509.397 138.642 509.444 132.969 510.705 134.056Z" fill="white"/>
+        </g>
+        <g filter="url(#hdr_f12)">
+          <path d="M154.573 249.846L151.328 268.443C151.441 264.764 148.825 273.714 151.778 254.819C152.32 251.352 153.923 223.823 154.573 249.846Z" fill="white"/>
+        </g>
+        <g filter="url(#hdr_f13)">
+          <path d="M75.2773 181.701C91.8894 190.694 138.935 200.664 194.22 168.596C144.516 182.369 94.2151 183.071 75.2773 181.701Z" fill="white"/>
+        </g>
+        <g filter="url(#hdr_f14)">
+          <ellipse cx="734.341" cy="330.438" rx="3.1067" ry="2.95795" fill="white"/>
+        </g>
+        <g filter="url(#hdr_f15)">
+          <path d="M752.035 173.827L738.535 211.327L746.035 96.3267L796.035 63.8267V173.827L781.081 167.827L752.035 173.827Z" fill="#EEA23C"/>
+        </g>
+        <g filter="url(#hdr_f16)">
+          <ellipse cx="296.298" cy="136.481" rx="23.966" ry="12.6769" fill="#FFD062"/>
+        </g>
+      </g>
+    </svg>
+  );
+}
+
 function SectionBottomCheeseMelt() {
   return (
     <svg
-      viewBox="0 0 1533 445"
+      viewBox="0 0 1532 447"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       className="w-full h-auto block"
     >
       <defs>
+        <filter id="s2b_topEdgeBlur" x="-50" y="-50" width="1632" height="547" filterUnits="userSpaceOnUse">
+          <feGaussianBlur stdDeviation="9" result="blur" />
+          <feMerge>
+            <feMergeNode in="blur" />
+            <feMergeNode in="SourceGraphic" />
+          </feMerge>
+        </filter>
         <linearGradient id="s2b_topFadeGrad" x1="0" y1="0" x2="0" y2="1">
           <stop offset="0%" stopColor="white" stopOpacity="0" />
-          <stop offset="20%" stopColor="white" stopOpacity="0.1" />
-          <stop offset="38%" stopColor="white" stopOpacity="0.75" />
+          <stop offset="10%" stopColor="white" stopOpacity="0.1" />
+          <stop offset="24%" stopColor="white" stopOpacity="0.45" />
+          <stop offset="40%" stopColor="white" stopOpacity="0.85" />
           <stop offset="55%" stopColor="white" stopOpacity="1" />
           <stop offset="100%" stopColor="white" stopOpacity="1" />
         </linearGradient>
         <linearGradient id="s2b_cheeseGrad" x1="0" y1="0" x2="0" y2="1">
           <stop offset="0%" stopColor="#fbe8c3" stopOpacity="0" />
-          <stop offset="18%" stopColor="#fbe8c3" stopOpacity="0.3" />
-          <stop offset="36%" stopColor="#FBD068" stopOpacity="0.95" />
-          <stop offset="55%" stopColor="#FBD068" stopOpacity="1" />
+          <stop offset="14%" stopColor="#fbe8c3" stopOpacity="0.4" />
+          <stop offset="28%" stopColor="#fae0a2" stopOpacity="0.85" />
+          <stop offset="44%" stopColor="#FBD068" stopOpacity="1" />
           <stop offset="100%" stopColor="#FBD068" stopOpacity="1" />
         </linearGradient>
         <mask id="s2b_topFadeMask">
-          <rect x="-100" y="0" width="1733" height="500" fill="url(#s2b_topFadeGrad)" />
+          <rect x="-100" y="0" width="1732" height="500" fill="url(#s2b_topFadeGrad)" />
+        </mask>
+        <mask id="s2b_drawMeltMask" maskUnits="userSpaceOnUse" x="-100" y="-50" width="1732" height="550">
+          {/* Base continuous molten sheet */}
+          <path d="M -100 -50 L 1650 -50 L 1650 90 L -100 90 Z" fill="white" />
+          {/* Wide overlapping fluid stream paths for every single melting drop */}
+          <path className="s2b-melt-stream" d="M 60 10 L 60 220 Q 55 350 62 460" stroke="white" strokeWidth="260" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+          <path className="s2b-melt-stream" d="M 135 10 L 135 200 Q 125 280 122 360" stroke="white" strokeWidth="240" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+          <path className="s2b-melt-stream" d="M 319 10 L 319 160 Q 320 200 319 250" stroke="white" strokeWidth="250" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+          <path className="s2b-melt-stream" d="M 496 10 L 496 150 Q 496 185 496 235" stroke="white" strokeWidth="250" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+          <path className="s2b-melt-stream" d="M 658 10 L 658 200 Q 658 270 658 340" stroke="white" strokeWidth="250" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+          <path className="s2b-melt-stream" d="M 844 10 L 844 180 Q 844 235 844 295" stroke="white" strokeWidth="250" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+          <path className="s2b-melt-stream" d="M 1028 10 L 1028 200 Q 1028 265 1028 335" stroke="white" strokeWidth="250" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+          <path className="s2b-melt-stream" d="M 1190 10 L 1190 200 Q 1190 260 1190 320" stroke="white" strokeWidth="250" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+          <path className="s2b-melt-stream" d="M 1338 10 L 1338 230 Q 1338 320 1338 400" stroke="white" strokeWidth="260" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+          <path className="s2b-melt-stream" d="M 1518 10 L 1518 190 Q 1518 245 1518 305" stroke="white" strokeWidth="250" strokeLinecap="round" strokeLinejoin="round" fill="none" />
         </mask>
       </defs>
 
-      <g mask="url(#s2b_topFadeMask)">
-        <path
-          d="M62.7649 439.827C-13.189 445.33 105.155 317.915 45.2509 317.234C-14.653 316.553 3.52741 0 3.52741 0C3.52741 0 108.527 174 179.027 107C249.527 40 409.016 163 534.027 81.5C659.039 0 718.527 158.5 865.027 158.5C1011.53 158.5 1050.03 81.5 1240.53 81.5C1431.03 81.5 1496.25 127 1518.89 117C1541.53 107 1532.7 257.3 1518.89 281.138C1505.08 304.975 1450.71 263.43 1401.85 268.878C1352.99 274.327 1374.18 371.72 1338.26 376.487C1302.33 381.255 1322.57 274.327 1288.49 268.878C1254.41 263.43 1220.53 401.5 1190.8 292.035C1161.08 182.57 1182.03 268.878 1137.35 274.327C1092.67 279.776 1081.11 304.975 1029.52 308.38C977.928 311.786 925.398 263.43 899.576 251.852C873.755 240.274 876.519 274.327 845.202 268.878C813.884 263.43 814.772 228.695 792.671 233.463C770.569 238.23 785.281 265.473 757.65 260.025C730.019 254.576 741.078 243.679 709.727 247.765C678.376 251.852 703.259 313.829 659.039 313.148C614.819 312.467 645.198 228.695 620.332 224.609C595.465 220.523 570.549 256.619 553.055 240.955C535.561 225.29 532.149 42.7635 496.838 209.625C461.527 376.487 358.614 231.42 319.891 224.609C281.167 217.798 306.972 262.749 266.438 256.619C225.904 250.49 254.474 219.841 194.553 234.144C134.633 248.446 138.319 345.839 122.669 337.666C107.018 329.494 118.044 280.457 96.864 291.354C75.6837 302.251 109.766 436.421 62.7649 439.827Z"
-          fill="url(#s2b_cheeseGrad)"
-        />
+      <g mask="url(#s2b_topFadeMask)" filter="url(#s2b_topEdgeBlur)">
+        <g mask="url(#s2b_drawMeltMask)">
+          <path
+            d="M61.8313 446.073C-14.1226 451.576 104.221 324.161 44.3173 323.48C-15.5866 322.799 2.59382 6.24593 2.59382 6.24593C2.59382 6.24593 107.594 180.246 178.094 113.246C248.594 46.2459 326.582 143.246 451.594 61.7462C576.605 -19.7538 678.094 -29.7541 898.643 87.7459C1119.19 205.246 1049.09 87.7459 1239.59 87.7459C1430.09 87.7459 1495.32 133.246 1517.96 123.246C1540.59 113.246 1531.76 263.546 1517.96 287.384C1504.15 311.221 1449.77 269.676 1400.91 275.124C1352.05 280.573 1373.25 377.966 1337.32 382.733C1301.4 387.501 1321.64 280.573 1287.56 275.124C1253.47 269.676 1219.59 407.746 1189.87 298.281C1160.14 188.815 1181.09 275.124 1136.42 280.573C1091.74 286.021 1080.18 311.221 1028.59 314.626C976.995 318.032 924.464 269.676 898.643 258.098C872.821 246.519 875.586 280.573 844.268 275.124C812.951 269.676 813.839 234.941 791.737 239.709C769.635 244.476 784.348 271.719 756.716 266.27C729.085 260.822 740.144 249.925 708.793 254.011C677.442 258.098 702.325 320.075 658.105 319.394C613.885 318.713 644.265 234.941 619.398 230.855C594.532 226.768 569.615 262.865 552.121 247.201C534.628 231.536 531.215 49.0095 495.904 215.871C460.593 382.733 357.681 237.666 318.957 230.855C280.234 224.044 306.038 268.995 265.504 262.865C224.971 256.736 253.54 226.087 193.62 240.39C133.699 254.692 137.386 352.085 121.735 343.912C106.084 335.74 117.111 286.703 95.9304 297.6C74.7501 308.497 108.833 442.667 61.8313 446.073Z"
+            fill="url(#s2b_cheeseGrad)"
+          />
       <g opacity="0.51" filter="url(#s2b_filter0_f_233_44)">
         <path
           d="M58.2078 309.062L17.5996 283.386L22.1968 267.264L153.073 236.134L164.708 221.885H212.979L153.073 236.134L111.075 287.566L92.6864 267.264L58.2078 309.062Z"
@@ -514,6 +675,7 @@ function SectionBottomCheeseMelt() {
           fill="white"
         />
       </g>
+        </g>
       </g>
       <defs>
         <filter
@@ -698,6 +860,10 @@ export default function Home() {
   const heroContentRef = useRef<HTMLDivElement>(null);
   const showcaseSectionRef = useRef<HTMLElement>(null);
   const cheeseMeltRef = useRef<HTMLDivElement>(null);
+  const section2BottomMeltRef = useRef<HTMLDivElement>(null);
+  const thirdSectionRef = useRef<HTMLElement>(null);
+  const thirdSectionImgRef = useRef<HTMLDivElement>(null);
+  const thirdSectionContentRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     // Initialize Lenis Smooth Scrolling
@@ -722,56 +888,64 @@ export default function Home() {
       // 1. Initial Master Timeline for Header & Hero Entrance (Runs immediately on load without delays)
       const tl = gsap.timeline({ defaults: { ease: "power2.out" } });
 
-      // Initial state for header cheese melt
-      gsap.set(cheeseRef.current, {
-        yPercent: -100,
-        scaleY: 0.5,
-        transformOrigin: "top center",
-        opacity: 0.9,
+      const headerStreams = gsap.utils.toArray<SVGPathElement>(".header-melt-stream");
+      headerStreams.forEach((stream) => {
+        const len = stream.getTotalLength ? stream.getTotalLength() : 400;
+        gsap.set(stream, {
+          strokeDasharray: len + 10,
+          strokeDashoffset: len + 10,
+        });
       });
 
-      // Quick, fluid cheese dropdown synchronized with load
+      if (cheeseRef.current) {
+        gsap.set(cheeseRef.current, {
+          opacity: 0,
+        });
+      }
+
+      // Buttery smooth DrawSVG progressive liquid pour for Header Cheese
       tl.to(cheeseRef.current, {
-        yPercent: 0,
-        scaleY: 1.05,
         opacity: 1,
-        duration: 0.85,
-        ease: "power2.out",
+        duration: 0.25,
+        ease: "power1.out",
       })
-      .to(cheeseRef.current, {
-        scaleY: 0.98,
-        duration: 0.2,
-        ease: "power1.inOut",
-      })
-      .to(cheeseRef.current, {
-        scaleY: 1,
-        duration: 0.35,
-        ease: "elastic.out(1.2, 0.4)",
-      });
+      .to(
+        ".header-melt-stream",
+        {
+          strokeDashoffset: 0,
+          duration: 1.8,
+          ease: "power2.out",
+          stagger: {
+            amount: 0.35,
+            from: "start",
+          },
+        },
+        "-=0.1"
+      );
 
-      // Hero content smooth immediate reveal (t=0.05s)
+      // Hero content smooth immediate reveal
       gsap.fromTo(
         heroContentRef.current,
         { opacity: 0, y: 20 },
         {
           opacity: 1,
           y: 0,
-          duration: 0.7,
+          duration: 0.8,
           ease: "power2.out",
-          delay: 0.05,
+          delay: 0.1,
         }
       );
 
       // Idle continuous header wobble (starts after initial entrance)
-      gsap.to(cheeseImgRef.current, {
-        scaleY: 1.02,
+      gsap.to(cheeseRef.current, {
+        scaleY: 1.015,
         scaleX: 0.995,
-        y: "+=3",
+        y: "+=2",
         duration: 3,
         ease: "sine.inOut",
         repeat: -1,
         yoyo: true,
-        delay: 1.5,
+        delay: 2.2,
         transformOrigin: "top center",
       });
 
@@ -858,6 +1032,88 @@ export default function Home() {
         delay: 3.5,
         transformOrigin: "32% 0%",
       });
+
+      // Section 3: Bottom Cheese Melt DrawSVG & 3rd Section Image Entrance Animation
+      const s2bStreams = gsap.utils.toArray<SVGPathElement>(".s2b-melt-stream");
+      s2bStreams.forEach((stream) => {
+        const len = stream.getTotalLength ? stream.getTotalLength() : 500;
+        gsap.set(stream, {
+          strokeDasharray: len + 10,
+          strokeDashoffset: len + 10,
+        });
+      });
+
+      if (section2BottomMeltRef.current) {
+        gsap.set(section2BottomMeltRef.current, {
+          opacity: 0,
+        });
+      }
+
+      if (thirdSectionImgRef.current) {
+        gsap.set(thirdSectionImgRef.current, {
+          y: -35,
+          opacity: 0,
+        });
+      }
+
+      if (thirdSectionContentRef.current) {
+        gsap.set(thirdSectionContentRef.current, {
+          y: 30,
+          opacity: 0,
+        });
+      }
+
+      const s3Tl = gsap.timeline({
+        scrollTrigger: {
+          trigger: thirdSectionRef.current,
+          start: "top 78%",
+          toggleActions: "play none none reverse",
+        },
+      });
+
+      s3Tl
+        // 1. Gentle initial fade-in of molten top
+        .to(section2BottomMeltRef.current, {
+          opacity: 1,
+          duration: 0.3,
+          ease: "power1.out",
+        })
+        // 2. Buttery smooth DrawSVG liquid melting & dripping down across the whole wave (no abrupt ending)
+        .to(
+          ".s2b-melt-stream",
+          {
+            strokeDashoffset: 0,
+            duration: 2.0,
+            ease: "power2.out",
+            stagger: {
+              amount: 0.35,
+              from: "start",
+            },
+          },
+          "-=0.15"
+        )
+        // 3. 3rd Section Image smoothly reveals from top to bottom in seamless harmony
+        .to(
+          thirdSectionImgRef.current,
+          {
+            y: 0,
+            opacity: 1,
+            duration: 1.4,
+            ease: "power2.out",
+          },
+          "-=1.4"
+        )
+        // 4. Section 3 content text & button smooth reveal
+        .to(
+          thirdSectionContentRef.current,
+          {
+            y: 0,
+            opacity: 1,
+            duration: 1.1,
+            ease: "power2.out",
+          },
+          "-=1.0"
+        );
     });
 
     return () => {
@@ -876,12 +1132,7 @@ export default function Home() {
           ref={cheeseRef}
           className="absolute top-0 left-0 w-full pointer-events-none -z-10 origin-top will-change-transform"
         >
-          <img
-            ref={cheeseImgRef}
-            src="/assets/header-cheese.svg"
-            alt="Header Cheese"
-            className="w-full h-auto transform -translate-y-[15%] origin-top will-change-transform"
-          />
+          <HeaderCheese />
         </div>
 
         {/* Header Content */}
@@ -985,33 +1236,40 @@ export default function Home() {
         </div>
 
         {/* Royal Hero Heading & Text */}
-        <div ref={heroContentRef} className="relative z-20 text-center max-w-6xl px-4 flex flex-col items-center justify-center -mt-16 md:-mt-20 select-none">
-          {/* Subtle Royal Accent Badge */}
-          <div className="inline-flex items-center gap-3 px-4 py-1.5 rounded-full bg-black/40 backdrop-blur-md border border-yellow-500/20 mb-3 shadow-lg">
-            <span className="w-1.5 h-1.5 rounded-full bg-yellow-400 animate-pulse"></span>
-            <span className="font-royal-sans text-xs tracking-[0.25em] uppercase text-yellow-300/90 font-medium">
-              Finest Artisanal Heritage
-            </span>
-            <span className="w-1.5 h-1.5 rounded-full bg-yellow-400 animate-pulse"></span>
+        <div ref={heroContentRef} className="relative z-20 text-center max-w-6xl px-4 flex flex-col items-center justify-center -mt-20 sm:-mt-28 md:-mt-36 lg:-mt-44 xl:-mt-48 select-none">
+
+          {/* Unified Gourmet Brand Lockup: INDIA'S LEADING + GOURMET SVG + Food Purveyors */}
+          <div className="relative w-[360px] sm:w-[540px] md:w-[700px] lg:w-[840px] xl:w-[960px] max-w-[94vw] flex flex-col items-center">
+            
+            {/* INDIA'S LEADING - Flowing Luxury Cursive Calligraphy (Great Vibes) */}
+            <div className="absolute top-[16%] sm:top-[17%] md:top-[18%] lg:top-[19%] left-[33%] sm:left-[34%] md:left-[35%] z-10 flex items-center justify-start pointer-events-none">
+              <h1 className="font-royal-great-vibes text-2xl sm:text-4xl md:text-5xl lg:text-[58px] xl:text-[66px] 2xl:text-[74px] font-normal tracking-wide text-white drop-shadow-[0_4px_16px_rgba(0,0,0,0.95)] whitespace-nowrap leading-none">
+                India&apos;s Leading
+              </h1>
+            </div>
+
+            {/* 3D Molten Cheese GOURMET SVG */}
+            <div className="w-full h-auto drop-shadow-[0_16px_32px_rgba(0,0,0,0.8)]">
+              <img
+                src="/assets/GOURMET.svg"
+                alt="Gourmet"
+                className="w-full h-auto block select-none pointer-events-none"
+              />
+            </div>
+
+            {/* Food Purveyors - Positioned slightly lower under the molten 'ourmet' word */}
+            <h2 className="font-royal-alex text-3xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-[88px] font-normal text-[#F8C854] tracking-wide leading-none -mt-3 sm:-mt-5 md:-mt-8 lg:-mt-11 xl:-mt-14 drop-shadow-[0_4px_16px_rgba(0,0,0,0.9)] ml-6 sm:ml-12 md:ml-16">
+              Food Purveyors
+            </h2>
           </div>
 
-          {/* Line 1: India's Leading */}
-          <h1 className="font-royal-cinzel text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-[0.06em] text-[#FAF6ED] drop-shadow-[0_4px_16px_rgba(0,0,0,0.95)]">
-            India&apos;s Leading
-          </h1>
-
-          {/* Line 2: Gourmet Food Purveyors */}
-          <h2 className="font-royal-script text-5xl sm:text-7xl md:text-8xl lg:text-[96px] font-normal text-[#FDB833] drop-shadow-[0_4px_22px_rgba(245,175,25,0.4)] tracking-wide leading-tight py-1 my-0.5 whitespace-nowrap">
-            Gourmet Food Purveyors
-          </h2>
-
           {/* Subtitle Line with Flourish: For the Gourmand in all of us */}
-          <div className="flex items-center justify-center gap-4 mt-2">
-            <span className="h-[1px] w-8 md:w-16 bg-gradient-to-r from-transparent to-yellow-500/60"></span>
-            <p className="font-royal-subheading text-base sm:text-xl md:text-2xl italic font-medium tracking-wide text-[#F5E6C4] drop-shadow-[0_2px_10px_rgba(0,0,0,0.95)]">
+          <div className="flex items-center justify-center gap-3 sm:gap-5 mt-4 sm:mt-5 md:mt-6">
+            <span className="h-[1px] w-12 sm:w-20 md:w-28 bg-gradient-to-r from-transparent to-[#E0A838]/80"></span>
+            <p className="font-royal-subheading text-base sm:text-xl md:text-2xl lg:text-[26px] italic font-medium tracking-wide text-[#FAF0D7] drop-shadow-[0_2px_12px_rgba(0,0,0,0.95)] whitespace-nowrap">
               For the Gourmand in all of us
             </p>
-            <span className="h-[1px] w-8 md:w-16 bg-gradient-to-l from-transparent to-yellow-500/60"></span>
+            <span className="h-[1px] w-12 sm:w-20 md:w-28 bg-gradient-to-l from-transparent to-[#E0A838]/80"></span>
           </div>
         </div>
 
@@ -1029,7 +1287,7 @@ export default function Home() {
       </section>
       
       {/* Gourmet Products Showcase Section */}
-      <section ref={showcaseSectionRef} className="w-full bg-[#fbe8c3] text-neutral-900 relative z-20 pt-2 sm:pt-4 md:pt-6 pb-0 overflow-visible">
+      <section ref={showcaseSectionRef} className="w-full bg-[#fbe8c3] text-neutral-900 relative z-30 pt-2 sm:pt-4 md:pt-6 pb-0 overflow-visible">
         {/* Decorative Cheese Image Container on the Right */}
         <div className="absolute -top-12 sm:-top-16 md:-top-24 lg:-top-28 xl:-top-32 right-2 sm:right-4 md:right-6 lg:right-8 xl:right-10 w-64 sm:w-80 md:w-[440px] lg:w-[560px] xl:w-[640px] z-20 pointer-events-none select-none">
           {/* Main Cheese Image */}
@@ -1134,7 +1392,7 @@ export default function Home() {
         </div>
 
         {/* Content Container on the Left */}
-        <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 relative z-10 -mt-24 sm:-mt-32 md:-mt-44 lg:-mt-56 xl:-mt-64 pb-8 sm:pb-12 md:pb-16">
+        <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 relative z-10 -mt-24 sm:-mt-32 md:-mt-44 lg:-mt-56 xl:-mt-64 pb-0">
           <div className="max-w-xl lg:max-w-2xl xl:max-w-[680px] space-y-5 sm:space-y-6">
             {/* Elegant Accent Line */}
             <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#183B2B]/8 border border-[#183B2B]/15 text-[#183B2B] text-xs font-semibold tracking-wider uppercase font-royal-sans">
@@ -1168,10 +1426,72 @@ export default function Home() {
             </div>
           </div>
         </div>
+      </section>
 
-        {/* Bottom Section Melted Cheese Element with seamless top fade & extended width */}
-        <div className="relative -mt-10 sm:-mt-14 md:-mt-20 lg:-mt-24 -left-[2%] sm:-left-[3%] w-[104%] sm:w-[106%] pointer-events-none z-10 translate-y-[1px] [mask-image:linear-gradient(to_bottom,transparent_0%,rgba(0,0,0,0.35)_16%,black_38%)] [-webkit-mask-image:linear-gradient(to_bottom,transparent_0%,rgba(0,0,0,0.35)_16%,black_38%)]">
+      {/* 3rd Section */}
+      <section ref={thirdSectionRef} className="relative w-full bg-[#fbe8c3] overflow-visible z-20">
+        {/* Melted Cheese Wave placed higher on top of Section 3 image */}
+        <div
+          ref={section2BottomMeltRef}
+          className="absolute -top-12 sm:-top-16 md:-top-24 lg:-top-28 -left-[2%] sm:-left-[3%] w-[104%] sm:w-[106%] pointer-events-none z-30 translate-y-[-2px] origin-top will-change-transform [mask-image:linear-gradient(to_bottom,transparent_0%,rgba(0,0,0,0.15)_8%,rgba(0,0,0,0.65)_22%,black_36%)] [-webkit-mask-image:linear-gradient(to_bottom,transparent_0%,rgba(0,0,0,0.15)_8%,rgba(0,0,0,0.65)_22%,black_36%)]"
+        >
           <SectionBottomCheeseMelt />
+        </div>
+
+        {/* Left-Aligned Text Content & Call-To-Action Button with White & Gold Typography */}
+        <div
+          ref={thirdSectionContentRef}
+          className="absolute top-[22%] sm:top-[25%] md:top-[28%] lg:top-[30%] left-10 sm:left-16 md:left-24 lg:left-32 xl:left-36 max-w-[300px] sm:max-w-md md:max-w-lg lg:max-w-xl z-30 space-y-2 sm:space-y-3 md:space-y-4 pointer-events-auto select-none"
+        >
+          {/* Eyebrow */}
+          <p className="font-royal-sans font-semibold text-xs sm:text-sm md:text-[15px] text-[#FDB833] tracking-wide drop-shadow-[0_2px_10px_rgba(0,0,0,0.95)]">
+            It&apos;s time to upgrade your Menu
+          </p>
+
+          {/* Heading */}
+          <h2 className="flex flex-col gap-0.5 sm:gap-1">
+            <span className="font-royal-cinzel font-bold text-2xl sm:text-4xl md:text-5xl lg:text-[50px] text-[#FFFFFF] leading-[1.12] drop-shadow-[0_4px_20px_rgba(0,0,0,0.95)]">
+              The Finest Ingredients
+            </span>
+            <span className="font-royal-alex font-normal text-3xl sm:text-5xl md:text-6xl lg:text-[66px] text-[#FDB833] leading-tight my-0.5 sm:my-1 drop-shadow-[0_4px_18px_rgba(0,0,0,0.95)]">
+              for your kitchen
+            </span>
+          </h2>
+
+          {/* Subtitle */}
+          <p className="font-royal-sans font-medium text-xs sm:text-base md:text-[17px] text-[#FAF0D7] leading-relaxed max-w-xs sm:max-w-sm md:max-w-md drop-shadow-[0_2px_10px_rgba(0,0,0,0.95)]">
+            Elevate your recipes with our superior selection.
+          </p>
+
+          {/* Button */}
+          <div className="pt-2 sm:pt-3">
+            <button className="inline-flex items-center justify-center bg-[#FDB833] hover:bg-[#ffc54d] text-neutral-950 font-bold font-royal-sans text-xs sm:text-sm md:text-base px-6 sm:px-8 py-3 sm:py-3.5 rounded-xl shadow-[0_10px_24px_rgba(0,0,0,0.6)] hover:scale-105 active:scale-95 transition-all duration-300 cursor-pointer">
+              View Catalog
+            </button>
+          </div>
+        </div>
+
+        <div
+          ref={thirdSectionImgRef}
+          className="w-full relative pt-6 sm:pt-10 md:pt-14 lg:pt-16 will-change-transform [mask-image:linear-gradient(to_bottom,transparent_0%,transparent_10%,rgba(0,0,0,0.25)_22%,rgba(0,0,0,0.75)_34%,black_45%,black_85%,rgba(0,0,0,0.4)_95%,transparent_100%)] [-webkit-mask-image:linear-gradient(to_bottom,transparent_0%,transparent_10%,rgba(0,0,0,0.25)_22%,rgba(0,0,0,0.75)_34%,black_45%,black_85%,rgba(0,0,0,0.4)_95%,transparent_100%)]"
+        >
+          <img
+            src="/assets/3rd-section-img.png"
+            alt="Artisanal Culinary Excellence"
+            loading="lazy"
+            decoding="async"
+            className="w-full h-auto object-cover block"
+          />
+
+          {/* Left-Side Dark Vignette Gradient Overlay for High Contrast Text Visibility */}
+          <div className="absolute inset-0 bg-gradient-to-r from-black/85 via-black/50 via-40% to-transparent pointer-events-none z-10"></div>
+          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_left,_var(--tw-gradient-stops))] from-black/80 via-black/35 to-transparent pointer-events-none z-10"></div>
+
+          {/* Top Soft Beige Blend Gradient Overlay */}
+          <div className="absolute top-0 left-0 w-full h-28 sm:h-36 md:h-48 bg-gradient-to-b from-[#fbe8c3] via-[#fbe8c3]/80 via-40% to-transparent pointer-events-none z-10"></div>
+
+          {/* Bottom Soft Shadow Blend Gradient */}
+          <div className="absolute bottom-0 left-0 w-full h-16 sm:h-24 md:h-32 bg-gradient-to-t from-neutral-950 via-neutral-950/40 to-transparent pointer-events-none"></div>
         </div>
       </section>
     </main>
