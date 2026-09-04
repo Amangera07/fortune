@@ -1127,7 +1127,7 @@ export default function Home() {
         </div>
 
         {/* Bottom Section 2 Melted Cheese Element fully visible with subtle top feathering */}
-        <div className="absolute bottom-0 -left-[3%] sm:-left-[4%] w-[106%] sm:w-[108%] pointer-events-none z-10 -translate-y-14 sm:-translate-y-20 md:-translate-y-28 lg:-translate-y-36 [mask-image:linear-gradient(to_bottom,transparent_0%,black_6px)] [-webkit-mask-image:linear-gradient(to_bottom,transparent_0%,black_6px)]">
+        <div className="absolute bottom-0 -left-[3%] sm:-left-[4%] w-[106%] sm:w-[108%] pointer-events-none z-10 -translate-y-2 sm:-translate-y-4 md:-translate-y-6 lg:-translate-y-8 [mask-image:linear-gradient(to_bottom,transparent_0%,black_6px)] [-webkit-mask-image:linear-gradient(to_bottom,transparent_0%,black_6px)]">
           <Section2BottomCheeseMelt />
         </div>
       </section>
