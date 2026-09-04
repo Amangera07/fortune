@@ -393,12 +393,11 @@ function BannerBottomCheese() {
 function SectionBottomCheeseMelt() {
   return (
     <svg
-      width="100%"
-      height="100%"
       viewBox="0 0 1533 445"
+      preserveAspectRatio="none"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      className="w-full h-auto block"
+      className="w-full h-36 sm:h-48 md:h-60 lg:h-72 xl:h-80 block"
     >
       <defs>
         <linearGradient id="s2b_topFadeGrad" x1="0" y1="0" x2="0" y2="1">
