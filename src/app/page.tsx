@@ -1494,6 +1494,8 @@ export default function Home() {
           <div className="absolute bottom-0 left-0 w-full h-16 sm:h-24 md:h-32 bg-gradient-to-t from-neutral-950 via-neutral-950/40 to-transparent pointer-events-none"></div>
         </div>
       </section>
+
     </main>
   );
 }
+
