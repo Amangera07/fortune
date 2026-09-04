@@ -403,10 +403,17 @@ function Section2BottomCheeseMelt() {
       <defs>
         <linearGradient id="s2_topFadeGrad" x1="0" y1="0" x2="0" y2="1">
           <stop offset="0%" stopColor="white" stopOpacity="0" />
-          <stop offset="12%" stopColor="white" stopOpacity="0.2" />
-          <stop offset="24%" stopColor="white" stopOpacity="0.85" />
-          <stop offset="35%" stopColor="white" stopOpacity="1" />
+          <stop offset="22%" stopColor="white" stopOpacity="0" />
+          <stop offset="40%" stopColor="white" stopOpacity="0.5" />
+          <stop offset="55%" stopColor="white" stopOpacity="1" />
           <stop offset="100%" stopColor="white" stopOpacity="1" />
+        </linearGradient>
+        <linearGradient id="s2_cheeseBaseGrad" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stopColor="#fbe8c3" stopOpacity="0" />
+          <stop offset="20%" stopColor="#fbe8c3" stopOpacity="0.2" />
+          <stop offset="38%" stopColor="#FBD068" stopOpacity="0.9" />
+          <stop offset="55%" stopColor="#FBD068" stopOpacity="1" />
+          <stop offset="100%" stopColor="#FBD068" stopOpacity="1" />
         </linearGradient>
         <mask id="s2_topFadeMask">
           <rect x="-100" y="0" width="1034" height="250" fill="url(#s2_topFadeGrad)" />
@@ -416,7 +423,7 @@ function Section2BottomCheeseMelt() {
       <g mask="url(#s2_topFadeMask)">
         <path
           d="M42.1027 196.011C0.895004 200.051 65.1007 106.511 32.6007 106.011C0.100739 105.511 8.60269 20.5107 8.60269 20.5107L822.602 13.0107C822.602 13.0107 839.594 62.0107 832.102 79.5107C824.611 97.0107 795.111 66.5107 768.602 70.5107C742.094 74.5107 753.594 146.011 734.102 149.511C714.611 153.011 725.594 74.5107 707.102 70.5107C688.611 66.5107 669.094 91.5107 654.102 87.5107C639.111 83.5107 641.594 70.5107 625.102 74.5107C608.611 78.5107 594.594 97.0107 566.602 99.5107C538.611 102.011 510.112 66.5107 496.103 58.0107C482.094 49.5107 483.594 74.5107 466.603 70.5107C449.612 66.5107 450.094 41.0107 438.103 44.5107C426.112 48.0107 434.094 68.0107 419.103 64.0107C404.112 60.0107 410.112 52.0107 393.103 55.0107C376.094 58.0107 389.594 103.511 365.603 103.011C341.612 102.511 358.094 41.0107 344.603 38.0107C331.112 35.0107 317.594 61.5107 308.103 50.0107C298.612 38.5107 288.094 20.5107 277.603 27.0107C267.112 33.5107 202.612 43.0107 181.603 38.0107C160.594 33.0107 174.594 66.0107 152.603 61.5107C130.612 57.0107 146.112 34.5107 113.603 45.0107C81.0938 55.5107 83.0938 127.011 74.6027 121.011C66.1116 115.011 72.0938 79.0107 60.6027 87.0107C49.1116 95.0107 67.6027 193.511 42.1027 196.011Z"
-          fill="#FBD068"
+          fill="url(#s2_cheeseBaseGrad)"
         />
       <g opacity="0.51" filter="url(#s2_filter0_f_233_44)">
         <path
@@ -1142,7 +1149,7 @@ export default function Home() {
         </div>
 
         {/* Bottom Section 2 Melted Cheese Element with seamless top fade & extended width */}
-        <div className="absolute bottom-0 -left-[3%] sm:-left-[4%] w-[106%] sm:w-[108%] pointer-events-none z-10 -translate-y-14 sm:-translate-y-20 md:-translate-y-28 lg:-translate-y-36 [mask-image:linear-gradient(to_bottom,transparent_0%,rgba(0,0,0,0.3)_10px,black_28px)] [-webkit-mask-image:linear-gradient(to_bottom,transparent_0%,rgba(0,0,0,0.3)_10px,black_28px)]">
+        <div className="absolute bottom-0 -left-[3%] sm:-left-[4%] w-[106%] sm:w-[108%] pointer-events-none z-10 -translate-y-14 sm:-translate-y-20 md:-translate-y-28 lg:-translate-y-36 [mask-image:linear-gradient(to_bottom,transparent_0%,transparent_18px,rgba(0,0,0,0.5)_34px,black_56px)] [-webkit-mask-image:linear-gradient(to_bottom,transparent_0%,transparent_18px,rgba(0,0,0,0.5)_34px,black_56px)]">
           <Section2BottomCheeseMelt />
         </div>
       </section>
