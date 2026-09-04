@@ -8,8 +8,46 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --animate-slide-down: slide-down 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  
+  @keyframes slide-down {
+    0% { transform: translateY(-100%); opacity: 0; }
+    100% { transform: translateY(0); opacity: 1; }
+  }
+}
+
+.font-royal-serif {
+  font-family: var(--font-playfair), Georgia, serif;
+}
+
+.font-royal-cinzel {
+  font-family: var(--font-cinzel), serif;
+}
+
+.font-royal-script {
+  font-family: var(--font-satisfy), 'Playball', cursive;
+}
+
+.font-royal-playball {
+  font-family: var(--font-playball), 'Satisfy', cursive;
+}
+
+.font-royal-subheading {
+  font-family: var(--font-cormorant), Georgia, serif;
+}
+
+.font-royal-sans {
+  font-family: var(--font-montserrat), sans-serif;
+}
+
+.gold-text-gradient {
+  background: linear-gradient(135deg, #FFE8A3 0%, #F5AF19 40%, #E69500 70%, #FFD369 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-glow {
+  filter: drop-shadow(0 4px 18px rgba(245, 175, 25, 0.35)) drop-shadow(0 8px 30px rgba(0, 0, 0, 0.9));
 }
 
 @media (prefers-color-scheme: dark) {
