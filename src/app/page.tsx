@@ -4,6 +4,7 @@ import Image from "next/image";
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import Lenis from "lenis";
 
 if (typeof window !== "undefined") {
   gsap.registerPlugin(ScrollTrigger);
@@ -700,6 +701,24 @@ export default function Home() {
   const cheeseMeltRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
+    // Initialize Lenis Smooth Scrolling
+    const lenis = new Lenis({
+      duration: 1.2,
+      easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+      smoothWheel: true,
+      touchMultiplier: 1.8,
+      infinite: false,
+    });
+
+    // Synchronize Lenis scroll position with GSAP ScrollTrigger
+    lenis.on("scroll", ScrollTrigger.update);
+
+    const rafTicker = (time: number) => {
+      lenis.raf(time * 1000);
+    };
+    gsap.ticker.add(rafTicker);
+    gsap.ticker.lagSmoothing(0);
+
     const ctx = gsap.context(() => {
       // 1. Initial Master Timeline for Header & Hero Entrance (Runs immediately on load without delays)
       const tl = gsap.timeline({ defaults: { ease: "power2.out" } });
@@ -842,7 +861,11 @@ export default function Home() {
       });
     });
 
-    return () => ctx.revert();
+    return () => {
+      ctx.revert();
+      gsap.ticker.remove(rafTicker);
+      lenis.destroy();
+    };
   }, []);
 
   return (
