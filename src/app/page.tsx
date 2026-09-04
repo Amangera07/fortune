@@ -1126,8 +1126,8 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Bottom Section 2 Melted Cheese Element positioned at balanced height */}
-        <div className="absolute bottom-0 left-0 w-full pointer-events-none z-10 -translate-y-14 sm:-translate-y-20 md:-translate-y-28 lg:-translate-y-36">
+        {/* Bottom Section 2 Melted Cheese Element with extended width to conceal corner cuts */}
+        <div className="absolute bottom-0 -left-[3%] sm:-left-[4%] w-[106%] sm:w-[108%] pointer-events-none z-10 -translate-y-14 sm:-translate-y-20 md:-translate-y-28 lg:-translate-y-36">
           <Section2BottomCheeseMelt />
         </div>
       </section>
