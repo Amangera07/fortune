@@ -1008,7 +1008,7 @@ export default function Home() {
       </section>
       
       {/* Gourmet Products Showcase Section */}
-      <section ref={showcaseSectionRef} className="min-h-screen w-full bg-[#fbe8c3] text-neutral-900 relative z-20 pt-2 sm:pt-4 md:pt-6 pb-24 overflow-visible">
+      <section ref={showcaseSectionRef} className="w-full bg-[#fbe8c3] text-neutral-900 relative z-20 pt-2 sm:pt-4 md:pt-6 pb-0 overflow-visible">
         {/* Decorative Cheese Image Container on the Right */}
         <div className="absolute -top-12 sm:-top-16 md:-top-24 lg:-top-28 xl:-top-32 right-2 sm:right-4 md:right-6 lg:right-8 xl:right-10 w-64 sm:w-80 md:w-[440px] lg:w-[560px] xl:w-[640px] z-20 pointer-events-none select-none">
           {/* Main Cheese Image */}
@@ -1113,7 +1113,7 @@ export default function Home() {
         </div>
 
         {/* Content Container on the Left */}
-        <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 relative z-10 -mt-24 sm:-mt-32 md:-mt-44 lg:-mt-56 xl:-mt-64">
+        <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 relative z-10 -mt-24 sm:-mt-32 md:-mt-44 lg:-mt-56 xl:-mt-64 pb-8 sm:pb-12 md:pb-16">
           <div className="max-w-xl lg:max-w-2xl xl:max-w-[680px] space-y-5 sm:space-y-6">
             {/* Elegant Accent Line */}
             <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#183B2B]/8 border border-[#183B2B]/15 text-[#183B2B] text-xs font-semibold tracking-wider uppercase font-royal-sans">
@@ -1149,7 +1149,7 @@ export default function Home() {
         </div>
 
         {/* Bottom Section Melted Cheese Element with seamless top fade & extended width */}
-        <div className="absolute bottom-0 -left-[2%] sm:-left-[3%] w-[104%] sm:w-[106%] pointer-events-none z-10 translate-y-[1px] [mask-image:linear-gradient(to_bottom,transparent_0%,rgba(0,0,0,0.35)_16%,black_38%)] [-webkit-mask-image:linear-gradient(to_bottom,transparent_0%,rgba(0,0,0,0.35)_16%,black_38%)]">
+        <div className="relative -mt-10 sm:-mt-14 md:-mt-20 lg:-mt-24 -left-[2%] sm:-left-[3%] w-[104%] sm:w-[106%] pointer-events-none z-10 translate-y-[1px] [mask-image:linear-gradient(to_bottom,transparent_0%,rgba(0,0,0,0.35)_16%,black_38%)] [-webkit-mask-image:linear-gradient(to_bottom,transparent_0%,rgba(0,0,0,0.35)_16%,black_38%)]">
           <SectionBottomCheeseMelt />
         </div>
       </section>
