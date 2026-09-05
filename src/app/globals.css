@@ -127,3 +127,29 @@ body {
   scrollbar-width: none;
   -ms-overflow-style: none;
 }
+
+@keyframes cheesy-burst-pulse {
+  0%, 100% {
+    transform: scale(1) rotate(0deg);
+  }
+  50% {
+    transform: scale(1.06) rotate(3deg);
+  }
+}
+
+@keyframes float-levitate {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+.animate-cheesy-burst {
+  animation: cheesy-burst-pulse 7s ease-in-out infinite;
+}
+
+.animate-float-levitate {
+  animation: float-levitate 4.5s ease-in-out infinite;
+}
