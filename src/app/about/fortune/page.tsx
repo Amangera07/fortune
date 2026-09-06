@@ -187,7 +187,7 @@ export default function AboutFortunePage() {
       <Header cheeseRef={cheeseRef} logoRef={logoRef} />
 
       {/* ── HERO — Clean dark gradient, no image ───────────────────────────────── */}
-      <section className="relative w-full min-h-[160vh] flex items-center">
+      <section className="relative w-full min-h-[80vh] md:min-h-[120vh] lg:min-h-[160vh] flex items-center">
         <div className="absolute inset-0 z-0">
           {/* Rich dark gradient background */}
           <div className="absolute inset-0 bg-[#080e08]" />

@@ -26,7 +26,7 @@ const PRODUCTS = [
   { id: 9, name: "Lactima Gourmet Cheddar Slices", tags: "DAIRY, CHEESE, SLICES, SHOP", img: "/assets/3.jpg" },
 ];
 
-export default function PoultryPage() {
+export default function BakeryPage() {
   const cheeseRef = useRef<HTMLDivElement>(null);
   const logoRef = useRef<HTMLDivElement>(null);
   const heroTextRef = useRef<HTMLDivElement>(null);
@@ -94,7 +94,7 @@ export default function PoultryPage() {
         <div className="relative z-20 max-w-7xl mx-auto px-6 sm:px-10 lg:px-16 w-full" style={{ paddingTop: "100px", paddingBottom: "160px" }}>
           <div ref={heroTextRef} className="max-w-2xl relative z-10">
             <h1 className="font-royal-cinzel font-bold uppercase text-5xl sm:text-6xl md:text-7xl lg:text-[80px] text-[#fdb833] leading-none mb-6 drop-shadow-[0_4px_24px_rgba(0,0,0,0.8)]">
-              Poultry
+              Bakery
             </h1>
             <p className="font-royal-sans text-white text-xl sm:text-2xl max-w-md leading-relaxed font-light drop-shadow-[0_2px_8px_rgba(0,0,0,0.9)]">
               A Vision to Bring World-Class<br/> Gourmet Foods to Every Home

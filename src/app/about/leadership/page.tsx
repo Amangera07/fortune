@@ -99,7 +99,7 @@ export default function LeadershipPage() {
       <Header cheeseRef={cheeseRef} logoRef={logoRef} />
 
       {/* ── HERO ───────────────────────────────────────────────────────────────── */}
-      <section className="relative w-full min-h-[160vh] flex items-center">
+      <section className="relative w-full min-h-[80vh] md:min-h-[120vh] lg:min-h-[160vh] flex items-center">
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-[#080e08]" />
           <div className="absolute inset-0 bg-gradient-to-br from-[#0a0a0a] via-[#0d1a0f] to-[#111a0a]" />
