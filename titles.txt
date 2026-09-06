@@ -1,0 +1,9 @@
+<a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="https://fortunegourmet.com/product/antipasto-classico-120g/" target="_self">Antipasto classico 120g</a>
+<a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="https://fortunegourmet.com/product/pancetta-100gm/" target="_self">Pancetta 100gm</a>
+<a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="https://fortunegourmet.com/product/prosciutto-crudo-100gm/" target="_self">Prosciutto Crudo 100gm</a>
+<a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="https://fortunegourmet.com/product/prosciutto-crudo-full/" target="_self">Prosciutto Crudo Full</a>
+<a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="https://fortunegourmet.com/product/prosciutto-di-parma-80-g/" target="_self">Prosciutto di Parma  80 g</a>
+<a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="https://fortunegourmet.com/product/salami-milano-100gm/" target="_self">Salami Milano 100gm</a>
+<a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="https://fortunegourmet.com/product/salami-napoli-100gm/" target="_self">Salami Napoli 100gm</a>
+<a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="https://fortunegourmet.com/product/streaky-bacon-150-gm/" target="_self">Streaky bacon 150 gm</a>
+<a class="woocommerce-LoopProduct-link woocommerce-loop-product__link" href="https://fortunegourmet.com/product/streaky-bacon-1kg/" target="_self">Streaky Bacon 1kg</a>

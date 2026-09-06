@@ -6,6 +6,7 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Lenis from "lenis";
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 if (typeof window !== "undefined") {
   gsap.registerPlugin(ScrollTrigger);
@@ -224,15 +225,7 @@ export default function LeadershipPage() {
           </div>
         </div>
       </section>
-
-      {/* ── FOOTER STRIP ───────────────────────────────────────────────────────── */}
-      <div className="bg-[#163527] py-5 px-6 flex items-center justify-center gap-3 relative z-20">
-        <span className="text-[#fdb833] opacity-80 text-xl">🌿</span>
-        <p className="font-royal-cinzel font-bold text-[#fdb833] text-sm sm:text-base tracking-widest uppercase">
-          Quality &nbsp;•&nbsp; Trust &nbsp;•&nbsp; Global Taste
-        </p>
-        <span className="text-[#fdb833] opacity-80 text-xl">🌿</span>
-      </div>
+      <Footer />
     </main>
   );
 }

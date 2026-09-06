@@ -3,6 +3,19 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --font-playfair: 'Playfair Display', Georgia, serif;
+  --font-cinzel: 'Cinzel', Georgia, serif;
+  --font-cinzel-deco: 'Cinzel Decorative', 'Cinzel', Georgia, serif;
+  --font-italiana: 'Italiana', Georgia, serif;
+  --font-bodoni: 'Bodoni Moda', Georgia, serif;
+  --font-satisfy: 'Satisfy', cursive;
+  --font-playball: 'Playball', cursive;
+  --font-alex-brush: 'Alex Brush', cursive;
+  --font-great-vibes: 'Great Vibes', cursive;
+  --font-pinyon: 'Pinyon Script', cursive;
+  --font-allura: 'Allura', cursive;
+  --font-cormorant: 'Cormorant Garamond', Georgia, serif;
+  --font-montserrat: 'Montserrat', system-ui, -apple-system, sans-serif;
 }
 
 @theme inline {

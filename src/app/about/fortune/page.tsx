@@ -6,6 +6,7 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Lenis from "lenis";
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 if (typeof window !== "undefined") {
   gsap.registerPlugin(ScrollTrigger);
@@ -418,13 +419,7 @@ export default function AboutFortunePage() {
           </div>
         </div>
       </section>
-
-      {/* ── FOOTER STRIP ─────────────────────────────────────────────────────── */}
-      <div className="bg-[#163527] py-5 px-6 text-center">
-        <p className="font-royal-cinzel font-bold text-[#fdb833] text-base sm:text-lg tracking-widest">
-          Quality &nbsp;•&nbsp; Trust &nbsp;•&nbsp; Global Taste
-        </p>
-      </div>
+      <Footer />
     </main>
   );
 }

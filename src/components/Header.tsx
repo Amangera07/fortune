@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-
+import Link from "next/link";
 // ─── HeaderCheese SVG ────────────────────────────────────────────────────────
 // The animated melting cheese block that sticks to the top of the header.
 // DrawSVG animation streams are controlled by GSAP in the parent page via
@@ -182,10 +182,10 @@ const NAV_ITEMS: NavItem[] = [
     name: "Shop",
     hasDropdown: true,
     dropdownItems: [
-      { label: "Dairy", href: "#" },
-      { label: "Salumi Charcuterie", href: "#" },
-      { label: "Poultry", href: "#" },
-      { label: "Special Offers", href: "#" },
+      { label: "Dairy", href: "/shop/dairy" },
+      { label: "Salumi Charcuterie", href: "/shop/salumi-charcuterie" },
+      { label: "Poultry", href: "/shop/poultry" },
+      { label: "Special Offers", href: "/shop/special-offers" },
     ],
   },
   {
@@ -214,8 +214,8 @@ const NAV_ITEMS: NavItem[] = [
 // logoRef    — forwarded for future GSAP entrance animations
 
 interface HeaderProps {
-  cheeseRef: React.RefObject<HTMLDivElement | null>;
-  logoRef: React.RefObject<HTMLDivElement | null>;
+  cheeseRef?: React.RefObject<HTMLDivElement | null>;
+  logoRef?: React.RefObject<HTMLDivElement | null>;
 }
 
 export default function Header({ cheeseRef, logoRef }: HeaderProps) {
@@ -235,13 +235,14 @@ export default function Header({ cheeseRef, logoRef }: HeaderProps) {
       <div className="relative z-10">
         <div className="max-w-7xl mx-auto px-6 h-24 flex items-center justify-between">
           {/* Logo */}
-          <div ref={logoRef} className="flex items-center gap-3 cursor-pointer group">
-            <div className="w-10 h-10 rounded-xl bg-black flex items-center justify-center shadow-md group-hover:scale-105 transition-transform duration-300">
-              <span className="font-extrabold text-lg text-yellow-400">FG</span>
-            </div>
-            <span className="text-2xl font-extrabold tracking-tight text-black transition-colors duration-300">
-              Fortune
-            </span>
+          <div ref={logoRef} className="relative z-20">
+            <Link href="/" className="flex items-center cursor-pointer group">
+              <img 
+                src="/assets/fortune-logo.webp" 
+                alt="Fortune Gourmet Logo" 
+                className="h-14 sm:h-24 w-auto object-contain drop-shadow-sm group-hover:scale-105 transition-transform duration-300"
+              />
+            </Link>
           </div>
 
           {/* Desktop Navigation Menu */}
@@ -284,41 +285,43 @@ export default function Header({ cheeseRef, logoRef }: HeaderProps) {
                   }`}
                 />
 
-                {/* Dropdown Panel */}
+                {/* Dropdown Panel with Hover Bridge */}
                 {item.hasDropdown && item.dropdownItems && (
                   <div
-                    className={`absolute top-full left-0 mt-3 min-w-[200px] bg-white rounded-sm shadow-[0_8px_30px_rgba(0,0,0,0.12)] border border-gray-100 overflow-hidden transition-all duration-200 origin-top ${
+                    className={`absolute top-full left-0 pt-3 min-w-[200px] transition-all duration-200 origin-top ${
                       activeDropdown === item.name
                         ? "opacity-100 scale-y-100 pointer-events-auto"
                         : "opacity-0 scale-y-95 pointer-events-none"
                     }`}
                     style={{ transformOrigin: "top center" }}
                   >
-                    {item.dropdownItems.map((dItem, idx) => (
-                      <a
-                        key={dItem.label}
-                        href={dItem.href ?? "#"}
-                        className={`flex items-center justify-between px-5 py-3 text-[14px] font-medium text-[#fdb833] hover:bg-[#fff8e6] hover:text-[#d99a00] transition-colors duration-150 ${
-                          idx !== 0 ? "border-t border-gray-100" : ""
-                        }`}
-                      >
-                        <span>{dItem.label}</span>
-                        {dItem.hasArrow && (
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 20 20"
-                            fill="currentColor"
-                            className="w-4 h-4 text-[#fdb833]"
-                          >
-                            <path
-                              fillRule="evenodd"
-                              d="M8.22 5.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.06-1.06L11.94 10 8.22 6.28a.75.75 0 0 1 0-1.06Z"
-                              clipRule="evenodd"
-                            />
-                          </svg>
-                        )}
-                      </a>
-                    ))}
+                    <div className="bg-white rounded-sm shadow-[0_8px_30px_rgba(0,0,0,0.12)] border border-gray-100 overflow-hidden">
+                      {item.dropdownItems.map((dItem, idx) => (
+                        <a
+                          key={dItem.label}
+                          href={dItem.href ?? "#"}
+                          className={`flex items-center justify-between px-5 py-3 text-[14px] font-medium text-[#fdb833] hover:bg-[#fff8e6] hover:text-[#d99a00] transition-colors duration-150 ${
+                            idx !== 0 ? "border-t border-gray-100" : ""
+                          }`}
+                        >
+                          <span>{dItem.label}</span>
+                          {dItem.hasArrow && (
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 20 20"
+                              fill="currentColor"
+                              className="w-4 h-4 text-[#fdb833]"
+                            >
+                              <path
+                                fillRule="evenodd"
+                                d="M8.22 5.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.06-1.06L11.94 10 8.22 6.28a.75.75 0 0 1 0-1.06Z"
+                                clipRule="evenodd"
+                              />
+                            </svg>
+                          )}
+                        </a>
+                      ))}
+                    </div>
                   </div>
                 )}
               </div>
